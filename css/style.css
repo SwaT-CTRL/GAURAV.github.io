@@ -1,0 +1,506 @@
+/*----------Global CSS----------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #2471A3;
+}
+
+h1 {
+    color: #154360;
+}
+
+.extra-div h2,
+.servicediv h2 {
+    font-size: 0.9rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
+
+i {
+    color: #2fccd0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*----------Actual CSS Classes Start----------*/
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 100, 255, 0.3), rgba(0, 100, 255, 0.3)), url(images/pic1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.header:before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    right: 0;
+    left: 0;
+    opacity: .4;
+    z-index: -1;
+    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+}
+
+.navbar:before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    right: 0;
+    left: 0;
+    opacity: .4;
+    z-index: -1;
+    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+}
+
+.nav-item a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.header-section {
+    height: inherit;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.center-div {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.header-buttons a {
+    border: 1px solid #154360;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    color: #154360;
+}
+
+.header-buttons a:hover {
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    background: #50d1c0;
+    border: none;
+    color: #fff;
+}
+
+.center-div p {
+    color: #154360;
+    padding: 10px 0 20px 0;
+    font-size: 1.3rem;
+}
+
+
+/* HEADER-END */
+
+.header-extradiv {
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+}
+
+.header-extradiv h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+.extra-div {
+    background: #fff;
+    border: medium none;
+    padding: 50px !important;
+    border-radius: 3px;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.extra-div:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    transform: translateY(-20px);
+}
+
+.container {
+    padding-top: 20px;
+}
+
+
+/* End */
+
+.serviceoffers {
+    background: #f7f7f9;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+
+.headings {
+    margin-bottom: 50px;
+}
+
+.headings h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.names h1 {
+    color: #2e2e2e;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.service-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress {
+    height: 0.6rem!important;
+    margin-bottom: 25px;
+    background: #606060;
+}
+
+
+/* Offersection-End */
+
+.project-work h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: auto;
+}
+
+.project-work {
+    margin: 50px 0;
+}
+
+.project-work p {
+    color: #154360!important;
+}
+
+
+/* Already-happenend */
+
+.price {
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+    position: relative;
+}
+
+.money {
+    line-height: 1;
+    color: #606060;
+    font-size: 40px;
+}
+
+.card-header {
+    font-size: 1.6rem;
+    font-weight: bold;
+    background: #fff!important;
+    padding: 25px 9!important;
+}
+
+.card-body {
+    padding: 30px 0px!important;
+}
+
+.card-body li {
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #2471A3;
+}
+
+.card-footer {
+    background: white!important;
+    padding: 30px 0px!important
+}
+
+.card-footer a {
+    border: 1px solid #50d1c0;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    color: #50d1c0;
+}
+
+.card:hover .card-footer a {
+    text-decoration: none;
+    box-shadow: 0 0 20 0 rgba(0, 0, 0, 0.3);
+    background: #50d1c0;
+    color: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    transition: .3s;
+}
+
+.card:hover .card-header,
+.card:hover .money {
+    color: #50d1c0;
+}
+
+.card-second {
+    transform: translateY(-20px);
+    /*box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);*/
+}
+
+
+/* Pricing CSS Finish */
+
+.happyclients {
+    width: 100%;
+    height: 100vh;
+    padding: 80px 0;
+}
+
+.box {
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    transition: 0.3s ease;
+}
+
+.box h1 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.box h2 {
+    color: #154360;
+    margin-bottom: 20px;
+    font-weight: 400px;
+    font-size: 13px;
+}
+
+.box:hover {
+    background: #50d1c0;
+}
+
+.box:hover p {
+    color: #2471A3;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -60px!important;
+}
+
+.carousel-indicators li {
+    background: #154360!important;
+}
+
+.box a img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+
+/* Happy Clients Finish */
+
+#contact-form {
+    width: 100%;
+    padding: 80px 0px;
+    position: relative;
+}
+
+form {
+    margin-top: auto;
+    transition: all 4s ease-in-out;
+}
+
+.form-control {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1 px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input {
+    height: 45px;
+}
+
+form .submit {
+    background: #fff;
+    border-color: transparent;
+    color: #50d1c0;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    border: 1px solid #50d1c0;
+}
+
+form .submit:hover {
+    box-shadow: 0 0 20 0 rgba(0, 0, 0, 0.3);
+    background: #50d1c0;
+    color: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+/* Contact Us Form Finish */
+
+.newsletter {
+    width: 100%;
+    height: 100vh;
+    height: auto;
+    margin: 80px auto;
+}
+
+.news-input {
+    border-radius: 100px 0px 0px 100px!important;
+    min-width: 150px;
+    min-height: 40px;
+}
+
+.input-group-append a {
+    text-decoration: none!important;
+}
+
+.input-group-text {
+    border-radius: 1px solid #50d1c0;
+    color: white!important;
+    background: #fff!important;
+    border-radius: 0 100px 100px 0!important;
+    min-width: 130px;
+}
+
+.input-group-text:hover {
+    background: #50d1c0!important;
+    color: #fff!important;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+/* News Letter Finish */
+
+.footersection {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 70px 0 20px 0;
+    background: #50d1c0;
+}
+
+.footer-div li a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.footersection li a {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #2471A3;
+    text-transform: capitalize;
+}
+
+.footersection h3 {
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    color: #fff;
+    background: #50d1c0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+/* Footer Finish */
+
+
+/* Media Query */
+
+@media(max-width: 768px) {
+    .nav-item {
+        text-align: center!important;
+    }
+    .card-second {
+        transform: translateY(0px);
+        margin-top: 30px;
+    }
+    .price,
+    .happyclients,
+    .contactus {
+        height: auto;
+        margin-top: 50px;
+    }
+    .footer-div:nth-child(2) {
+        text-align: left!important;
+    }
+}
